@@ -1,0 +1,115 @@
+/* variables */
+:root {
+	--primary-color: #931420;
+	--accent-color: #f6bb73;
+	--light-accent: #fffded;
+	--light: white;
+	--dark: black;
+}
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* the default styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin: auto;
+    border: 3px solid var(--primary-color);
+}
+header, section, aside, footer { padding: 1em; }
+h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
+ul { margin-left: 1em; }
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+a:focus, a:hover {
+	font-style: italic;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid var(--primary-color);
+	background-image: linear-gradient(30deg, 
+		var(--accent-color) 0%, 
+		var(--light-accent) 25%, 
+		var(--light) 50%, 
+		var(--light-accent) 75%, 
+		var(--accent-color) 100%);
+	& h2 {
+		font-size: 175%;
+		color: var(--primary-color);
+		padding-bottom: 0;
+	}
+	& h3 {
+		font-size: 130%;
+		font-style: italic;
+	}
+	& img {
+		float: left;
+		margin: 0 30px;
+		width: clamp(40px, 15%, 66px);
+	}
+}
+
+/* the styles for the main element */
+main {
+	clear: left;
+}
+
+/* the styles for the section */
+section {
+	& h1 {
+		padding-top: .5em;
+	}
+	& h2 {
+		color: var(--primary-color);
+	}
+	& article + h2 {
+		clear: right;
+		border-top: 3px solid var(--primary-color);
+		padding-top: .5em;
+	}
+	& blockquote {
+		font-style: italic;
+		margin-left: 2em;
+	}
+}
+
+/* the styles for the article */
+article {
+	border-top: 3px solid var(--primary-color);
+	padding-top: .5em;
+	margin-bottom: .5em;
+	& img {
+		float: right;
+		margin: .25em 0 1em 1em;
+		border: 1px solid var(--dark);
+		width: min(100%, 225px);
+	}
+}
+
+/* the styles for the aside */
+aside {
+	& h2 {
+		color: var(--primary-color);
+	}
+	& img {
+		margin-bottom: .9em;
+	}
+}
+
+/* the styles for the footer */
+footer {
+	background-color: var(--primary-color);
+	& p {
+		text-align: center;
+		color: white;
+		padding-bottom: 0; 
+	}
+}
