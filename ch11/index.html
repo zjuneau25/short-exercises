@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee table</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+			width: 80%;
+			margin: 1em auto;
+		}
+		table {
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+		thead {
+			background-color: lightgreen;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: .35em 1em .35em .5em;
+			text-align: left;
+			vertical-align: middle;
+		}
+		tbody tr:nth-child(even) td {
+			background-color: lightgrey;
+		}
+        tbody td:last-child {
+            text-align: right;
+        }
+	</style>
+</head>
+
+<body>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>E-mail</th>
+			<th class="right">Years of Service</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Joel Murach</td>
+			<td>joelmurach@yahoo.com</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>Anne Boehm</td>
+			<td>anne@murach.com</td>
+			<td>34</td>
+		</tr>
+		<tr>
+			<td>Zak Ruvalcaba</td>
+			<td>zak@modulemedia.com</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Judy Taylor</td>
+			<td>judy@murach.com</td>
+			<td>39</td>
+		</tr>
+		<tr>
+			<td>Bethany Lee</td>
+			<td>bethany@murach.com</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>Kelly Slivkoff</td>
+			<td>kelly@murach.com</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>Juliette Baylon</td>
+			<td>juliette@murach.com</td>
+			<td>1</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
