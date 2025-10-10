@@ -57,7 +57,8 @@ blockquote {
 
 }
 ul {
-    margin: 20px 0;
+    margin: 10px 0;
+    padding-left: 10px;
 
 }
 li {
