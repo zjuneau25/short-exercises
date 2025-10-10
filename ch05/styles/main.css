@@ -20,7 +20,7 @@ main {
     padding: 20px;
 }
 footer {
-    border-top: var(--primary-color);
+    border-top: 15px var(--primary-color);
     font-size: 90%;
     font-weight: bold;
     text-align: center;
