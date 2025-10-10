@@ -12,25 +12,26 @@ body {
     font-size: 100%;
     width: 90%;
     text-align: center;
-    border: 15px double var(--primary-color)
+    border: 15px double var(--primary-color);
+    background-color: white;
+    margin:20px auto;
+    padding: 20px
 }
 main {
-    padding: 1em;
+    padding: 20px;
 }
 footer {
     border-top: var(--primary-color);
     font-size: 90%;
     font-weight: bold;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 h1 {
     font-size: 150%;
     color: var(--primary-color);
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin-bottom: 10px;
 }
 img {
     float: left;
@@ -40,39 +41,28 @@ img {
 h2 {
     clear: left;
     font-size: 125%;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 }
 h3 {
+    clear: left;
     font-size: 115%;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 }
 
 p {
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 
 }
 blockquote {
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 
 }
 ul {
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 
 }
 li {
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 0.5em;
+    margin: 10px 0;
 
 }
 cite {
